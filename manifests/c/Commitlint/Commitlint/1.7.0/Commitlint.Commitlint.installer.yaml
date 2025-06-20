@@ -1,0 +1,22 @@
+# Created with WinGet Releaser using komac v2.12.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Commitlint.Commitlint
+PackageVersion: 1.7.0
+InstallerLocale: en-US
+InstallerType: wix
+Scope: machine
+ProductCode: '{09769AD7-F09C-4C2B-943A-F84B6811842E}'
+ReleaseDate: 2025-06-20
+AppsAndFeaturesEntries:
+- Publisher: jurien.dev
+  ProductCode: '{09769AD7-F09C-4C2B-943A-F84B6811842E}'
+  UpgradeCode: '{9DD0376D-0F84-4692-B110-AE7E5E349AB0}'
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles(x86)%/Commitlint'
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/jurienhamaker/commitlint/releases/download/v1.7.0/commitlint_installer.msi
+  InstallerSha256: E22E24483ED32286A119754EAAC21900E8D33C06FF680E693EAE18E453B80BC0
+ManifestType: installer
+ManifestVersion: 1.10.0
